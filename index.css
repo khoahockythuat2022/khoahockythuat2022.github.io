@@ -36,8 +36,7 @@ body {
 ul li{
 
     list-style: none;
-    margin-left:auto;
-    margin-right: auto;
+
 }
 
 
@@ -57,8 +56,6 @@ ul#main_menu li{
     font-size: 100%;
     float:left;
     white-space: nowrap;
-    margin-left:auto;
-    margin-right: auto;
 
 
 }
@@ -76,11 +73,12 @@ ul#main_menu li a{
 
 body{
 
+    background-image: url(image/background.jpg);
     background-color: #F5F5DC;
     background-attachment: fixed;
-    height: 100%;
+    height: auto;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -95,15 +93,6 @@ body{
 
 
 
-#trailer{
-
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding:5px 5px;
-    
-    }
-
 }
 
 #answer p{
@@ -113,6 +102,17 @@ body{
     padding: 10px 7px;
 
 }
+
+
+#trailer{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding:5px 5px;
+
+}
+
 /*setup main menu */
 
 
@@ -168,5 +168,10 @@ body{
 
 }
 
-/*image*/
+#ansimage{
 
+    border-radius: 25px;
+
+}
+
+/*image*/
